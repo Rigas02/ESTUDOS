@@ -1,0 +1,18 @@
+algoritmo "semnome"
+
+var
+M,A,IMC:REAL
+inicio
+ESCREVAL("MASSA (KG):")
+LEIA(M)
+ESCREVAL("ALTURA (M) :")
+LEIA(A)
+IMC<- M/ (A^2)
+ESCREVAL("IMC", IMC:5:2)
+SE ( IMC>= 18.5) E (IMC < 25) ENTAO
+   ESCREVA("PARABENS! VOCE ESTA NO SEU PESO ")
+SENAO
+   ESCREVAL ("VOCE ESTA ACIMA DO SEU PESO")
+ FIMSE
+fimalgoritmo
+
