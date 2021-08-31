@@ -1,0 +1,19 @@
+algoritmo "semnome"
+
+var
+ V1,V2,S :INTEIRO
+ FUNCAO SOMA(X,Y:INTEIRO): INTEIRO
+inicio
+
+RETORNE X+Y
+
+FIMFUNCAO
+
+INICIO
+ESCREVA("DIGITE UM VALOR : ")
+LEIA(V1)
+ESCREVA("DIGITE OUTRO VALOR : ")
+LEIA(V2)
+S<- SOMA (V1,V2)
+ESCREVAL("A SOMA ENTRE " , V1 , " E " , V2 , " E IGUAL A " , S )
+fimalgoritmo
